@@ -11,3 +11,4 @@ repeat
 
 2108(통계학) : https://www.acmicpc.net/problem/2108
 
+11650(좌표 정렬하기) : https://www.acmicpc.net/problem/11650
