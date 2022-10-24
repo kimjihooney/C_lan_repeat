@@ -161,51 +161,103 @@
 // }
 
 
+// #include <stdio.h>
+// #include <string.h>
+
+// void check_point(char ox[]);
+
+// int main() 
+// {
+//     int tc;
+//     int len;
+    
+//     scanf("%d", &tc);
+    
+//     char ox[80];
+    
+//     for(int i = 0; i < tc; i++)
+//     {
+//         scanf("%s", ox);
+//         check_point(ox);
+//     }
+    
+    
+//     return 0;
+// }
+
+// void check_point(char ox[])
+// {
+//     int len;
+//     len = strlen(ox);
+    
+//     int point = 0;
+//     int sum = 0;
+    
+//     for(int i = 0; i < len; i++)
+//     {
+//         if(ox[i] == 'O')
+//         {
+//             point++;
+//             sum += point;
+//         }
+//         else if(ox[i] == 'X')
+//         {
+//             point = 0;
+//         }
+//     }
+    
+//     printf("%d\n", sum);
+    
+// }
+
 #include <stdio.h>
 #include <string.h>
 
-void check_point(char ox[]);
+int get_point();
 
-int main() 
+int main(void)
 {
     int tc;
-    int len;
-    
+
     scanf("%d", &tc);
-    
-    char ox[80];
-    
+
+    int point[tc];
+
     for(int i = 0; i < tc; i++)
     {
-        scanf("%s", ox);
-        check_point(ox);
+        point[i] = get_point();
     }
-    
-    
-    return 0;
+
+    for(int i = 0; i < tc; i++)
+    {
+        printf("%d\n", point[i]);   }
+
+    return 0;   
 }
 
-void check_point(char ox[])
+int get_point()
 {
+    char ox[80];
+    int sum = 0;
+    int add = 1;
+
+    scanf("%s", ox);
+
     int len;
     len = strlen(ox);
-    
-    int point = 0;
-    int sum = 0;
-    
+
     for(int i = 0; i < len; i++)
     {
         if(ox[i] == 'O')
         {
-            point++;
-            sum += point;
+            sum += add;
+            add++;
         }
         else if(ox[i] == 'X')
         {
-            point = 0;
+            add = 1;
         }
     }
-    
-    printf("%d\n", sum);
-    
+
+    return sum;
 }
