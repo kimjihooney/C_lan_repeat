@@ -15,3 +15,6 @@ repeat
 
 포인터
 1) https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=c_18&logNo=10167900698
+
+
+구조체
