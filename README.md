@@ -14,4 +14,4 @@ repeat
 11650(좌표 정렬하기) : https://www.acmicpc.net/problem/11650
 
 포인터
-10809(알파벳 찾기) : https://www.acmicpc.net/problem/10809
+[10809(알파벳 찾기) : https://www.acmicpc.net/problem/10809](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=c_18&logNo=10167900698)
