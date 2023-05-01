@@ -2,7 +2,7 @@
 repeat
 
 반복문
-2439(별찍기) 
+2439(별찍기) : https://www.acmicpc.net/problem/2439
 
 배열
 8958(OX퀴즈) : https://www.acmicpc.net/problem/8958
@@ -12,3 +12,5 @@ repeat
 2108(통계학) : https://www.acmicpc.net/problem/2108
 
 11650(좌표 정렬하기) : https://www.acmicpc.net/problem/11650
+
+
