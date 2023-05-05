@@ -17,4 +17,4 @@ repeat
 1) https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=c_18&logNo=10167900698
 
 
-구조체
+구조체 : https://www.acmicpc.net/problem/7568
